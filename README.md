@@ -4,7 +4,7 @@
 * Python 3.7+
 
 ### Packages Used
-This section has listed out tha major packages used for data wrangling and model building in this project. Program code for importing/installing the necessary packages has been included in the attached Jupyter Notebooks. The Jupyter Notebooks attached have been tested in Kaggle/Google Colab with no problem found per execution.
+This section has listed out tha major packages used for data wrangling and model building in this project. Program code for importing/installing the necessary packages has been included in the attached Jupyter Notebooks. The Jupyter Notebooks attached have been tested in Kaggle/Google Colab.
 
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [NumPy](https://numpy.org/doc/stable/)
@@ -22,17 +22,19 @@ This section has listed out tha major packages used for data wrangling and model
 
 ### Submitted Jupyter Notebooks
 
-1. Scraping of Rainfall Data from HKO\
+1. Scraping of Rainfall Data from HKO<br/><br/>
    This notebook has included the program code for extracting historical rainfall record of Hong Kong during the period 2017-2018 from Hong Kong Observatory.
 
-2. Road Speed Prediction (baseline)\
+2. Road Speed Prediction (baseline)<br/><br/>
    Exploratory data analysis has been done in this notebook to search for factors that are influential to average traffic speed through visualization (mainly line graph and box plot). A baseline model is then built by dividing the training data into different groups by the important factors identified in exploratory analysis, and then taking the median traffic speed of each group. Median is chosen as estimator as it is more robust and should be less affected by outliers.
 
-3. Road Speed Prediction (xgboost)\
+3. Road Speed Prediction (xgboost)<br/><br/>
    In this notebook, a gradient boosted tree has been trained for doing the prediction. The final submission made in Kaggle is generated from this notebook.
 
 
 ### Model Comparison
 
-* Kaggle Score (MSE) of the baseline model: 15.04727
-* Kaggle Score (MSE) of the xgboost model: 10.76706
+| Model          | Kaggle Score (MSE) |
+| -------------- |:------------------:|
+| Baseline Model | 15.04727           |
+| XGBoost Model  | 10.76706           |
