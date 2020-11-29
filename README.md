@@ -6,19 +6,19 @@
 ### Packages Used
 This section has listed out tha major packages used for data wrangling and model building in this project. Program code for importing/installing the necessary packages has been included in the attached Jupyter Notebooks. The Jupyter Notebooks attached have been tested in Kaggle/Google Colab with no problem found per execution.
 
-* Beautiful Soup (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* NumPy (https://numpy.org/doc/stable/)
-* Pandas (https://pandas.pydata.org/)
-* scikit-learn (https://scikit-learn.org/stable/)
-* Selenium (https://selenium-python.readthedocs.io/)
-* urllib (https://docs.python.org/3.7/library/urllib.html)
-* XGBoost (https://xgboost.readthedocs.io/en/latest/index.html)
+* Beautiful Soup  (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* NumPy           (https://numpy.org/doc/stable/)
+* Pandas          (https://pandas.pydata.org/)
+* scikit-learn    (https://scikit-learn.org/stable/)
+* Selenium        (https://selenium-python.readthedocs.io/)
+* urllib          (https://docs.python.org/3.7/library/urllib.html)
+* XGBoost         (https://xgboost.readthedocs.io/en/latest/index.html)
 
 ### Dataset used
 
-* Traffic Speed Dataset provided in Kaggle (https://www.kaggle.com/c/msbd5001-fall2020/data)
-* Hong Kong Public Holiday Data from GovHK (香港政府一站通) (https://www.gov.hk/en/about/abouthk/holiday/)
-* Rainfall Data Scraped from Hong Kong Observatory (https://www.hko.gov.hk/en/cis/dailyExtract.htm?y=2020&m=10)
+* Traffic Speed Dataset provided in Kaggle\ (https://www.kaggle.com/c/msbd5001-fall2020/data)
+* Hong Kong Public Holiday Data from GovHK (香港政府一站通)\ (https://www.gov.hk/en/about/abouthk/holiday/)
+* Rainfall Data Scraped from Hong Kong Observatory\ (https://www.hko.gov.hk/en/cis/dailyExtract.htm?y=2020&m=10)
 
 ### Submitted Jupyter Notebooks
 
